@@ -1,10 +1,22 @@
+/* Changes the Title of the Webpage */
 h1 {
     font-family: 'Helvetica';
     color: white;
     background-color: #333; /*dark gray*/
 }
 
+/* Changes the font size of all characters within paragraph tags */
+p{
+    font: size 18px;
+}
+
+/* Changes dimensions of the image */
 img {
-    width: 200px;
+    width: 600px;
     height: 200px;    
+}
+
+/* CSS - Highlights "I never make mistakes" Line*/
+.highlighted{
+    background-color: yellow;
 }
